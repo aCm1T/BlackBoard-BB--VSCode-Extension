@@ -1,10 +1,28 @@
 # BlackBoard(BB) VSCode Extension
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/aCm1T.cuhksz-bb-explorer?style=for-the-badge&logo=visual-studio-code&color=blue)](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/aCm1T.cuhksz-bb-explorer?style=for-the-badge&logo=visual-studio-code&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer)
+
 这是一个非官方的 Visual Studio Code 插件，专为极客学生和开发者们打造，允许您在写代码的编辑器内无缝浏览和访问 CUHK(SZ) BlackBoard 的课程与文件资料。
 
 *[阅读英文版说明 (English)](README.md)*
 
 ![BlackBoard Explorer 界面截图](images/example-screenshot.png)
+
+## 下载与安装 (Installation)
+
+您可以直接从 [VS Code 官方扩展商店](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer) 中一键安装此插件。
+
+**方法一：快捷指令（推荐）**
+在您的 VS Code 中按下组合键 `Ctrl+P`（Mac 为 `Cmd+P`）唤起快捷搜索输入框，然后粘贴并回车运行以下命令：
+```bash
+ext install aCm1T.cuhksz-bb-explorer
+```
+
+**方法二：商店搜索**
+1. 点击 VS Code 最左侧侧边栏中由四个方块组成的 **扩展 (Extensions)** 图标。
+2. 在搜索框内输入 `BlackBoard Explorer` 或是您的发布者大名 `aCm1T`。
+3. 找到名为 BlackBoard(BB) VSCode Extension 的插件，点击 **安装 (Install)** 即可。
 
 ## 开发初衷与作用 (Motivation)
 

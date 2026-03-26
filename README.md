@@ -1,10 +1,28 @@
 # BlackBoard(BB) VSCode Extension
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/aCm1T.cuhksz-bb-explorer?style=for-the-badge&logo=visual-studio-code&color=blue)](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/aCm1T.cuhksz-bb-explorer?style=for-the-badge&logo=visual-studio-code&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer)
+
 An unofficial Visual Studio Code extension for viewing CUHK(SZ) BlackBoard courses natively. 
 
 *[Read this document in Chinese (简体中文)](README_zh-CN.md)*
 
 ![BlackBoard Explorer Screenshot](images/example-screenshot.png)
+
+## Installation
+
+You can install this extension directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=aCm1T.cuhksz-bb-explorer).
+
+**Method 1: Quick Open (Recommended)**
+Press `Ctrl+P` / `Cmd+P` to launch VS Code Quick Open and paste the following command:
+```bash
+ext install aCm1T.cuhksz-bb-explorer
+```
+
+**Method 2: Extensions View**
+1. Click the **Extensions** icon in the Activity Bar on the left side of VS Code.
+2. Search for `BlackBoard Explorer` or `aCm1T`.
+3. Click **Install**.
 
 ## Motivation & Purpose
 
