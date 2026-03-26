@@ -1,4 +1,4 @@
-# BlackBoard Explorer for VSCode
+# BlackBoard(BB) VSCode Extension
 
 An unofficial Visual Studio Code extension for viewing CUHK(SZ) BlackBoard courses natively. 
 

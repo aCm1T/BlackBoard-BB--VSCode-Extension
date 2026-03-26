@@ -1,4 +1,4 @@
-# VSCode BlackBoard 课程浏览器 (BlackBoard Explorer)
+# BlackBoard(BB) VSCode Extension
 
 这是一个非官方的 Visual Studio Code 插件，专为极客学生和开发者们打造，允许您在写代码的编辑器内无缝浏览和访问 CUHK(SZ) BlackBoard 的课程与文件资料。
 

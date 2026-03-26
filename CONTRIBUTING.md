@@ -1,5 +1,7 @@
 # Development & Local Debugging Guide
 
+*[Read this document in Chinese (简体中文)](CONTRIBUTING_zh-CN.md)*
+
 If you want to modify, debug, or contribute to this extension locally, follow the steps below:
 
 ### 1. Setup the Environment

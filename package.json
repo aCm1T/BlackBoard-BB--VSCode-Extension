@@ -1,6 +1,6 @@
 {
   "name": "cuhksz-bb-explorer",
-  "displayName": "BlackBoard Explorer",
+  "displayName": "BlackBoard(BB) VSCode Extension",
   "description": "An unofficial VSCode extension for viewing CUHK(SZ) BlackBoard courses.",
   "version": "0.1.0",
   "publisher": "acmit",
