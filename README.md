@@ -4,6 +4,8 @@ An unofficial Visual Studio Code extension for viewing CUHK(SZ) BlackBoard cours
 
 *[Read this document in Chinese (简体中文)](README_zh-CN.md)*
 
+![BlackBoard Explorer Screenshot](images/example-screenshot.png)
+
 ## Motivation & Purpose
 
 As a student or developer, constantly switching between your code editor and a slow, bloated web browser to check course materials, assignments, or lecture slides is a massive drain on productivity. **BlackBoard Explorer** bridges this gap. 

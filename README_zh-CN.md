@@ -4,6 +4,8 @@
 
 *[阅读英文版说明 (English)](README.md)*
 
+![BlackBoard Explorer 界面截图](images/example-screenshot.png)
+
 ## 开发初衷与作用 (Motivation)
 
 作为一名学生开发者，在日常敲代码的过程中，我们往往需要频繁在 IDE 代码编辑器和笨重、缓慢的浏览器网页之间来回切换，以便查看课件、作业说明或是复习讲义。这种频繁的“上下文切换 (Context Switching)”会极大打断编程思路并降低效率。

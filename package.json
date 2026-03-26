@@ -4,6 +4,10 @@
   "description": "An unofficial VSCode extension for viewing CUHK(SZ) BlackBoard courses.",
   "version": "0.1.0",
   "publisher": "acmit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aCm1T/cuhksz-bb-explorer.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
