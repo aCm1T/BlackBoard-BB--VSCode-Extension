@@ -1,0 +1,78 @@
+{
+  "name": "cuhksz-bb-explorer",
+  "displayName": "BlackBoard Explorer",
+  "description": "An unofficial VSCode extension for viewing CUHK(SZ) BlackBoard courses.",
+  "version": "0.1.0",
+  "publisher": "acmit",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:bb.coursesView"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bb.login",
+        "title": "BB: Login"
+      },
+      {
+        "command": "bb.refreshCourses",
+        "title": "BB: Refresh Courses",
+        "icon": "$(refresh)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "bb-explorer",
+          "title": "BlackBoard",
+          "icon": "resources/bb-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "bb-explorer": [
+        {
+          "id": "bb.coursesView",
+          "name": "My Courses"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "bb.refreshCourses",
+          "when": "view == bb.coursesView",
+          "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "bb.login",
+          "when": "true"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "20.x",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
